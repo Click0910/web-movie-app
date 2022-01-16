@@ -1,0 +1,20 @@
+.card {
+    list-style: none;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+
+.cardImg {
+    border-radius: 10px;
+}
+
+@media (max-width:400) {
+    .cardImg{
+        width: 90%;
+        height: auto;
+    }
+}
